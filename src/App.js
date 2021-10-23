@@ -16,7 +16,7 @@ const App = () => {
                 <h2>Programming&nbsp;Blog</h2>
               </li>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/programming-blog">Home</Link>
               </li>
               <li>
                 <Link to="/programming">Programming</Link>
@@ -27,7 +27,7 @@ const App = () => {
             </ul>
           </div>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/programming-blog" component={Home} />
             <Route exact path="/programming" component={Programming} />
             <Route exact path="/jobs" component={Jobs} />
           </Switch>
